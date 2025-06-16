@@ -15,7 +15,7 @@ int main()
         cin >> month[i];
     }
 
-    sort(month, month + 12, greater<int>());
+    sort(month, month + 12, greater<int>());//sort in descending order
 
     if (k == 0)
     {
